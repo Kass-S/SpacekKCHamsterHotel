@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.no-radius{
+    border-radius: 0%;
+}
+
+.bg-blue{
+    background: #000324;
+}
+
+.square-border{
+    border: 2px solid white;
+    border-radius: 0%;
+}
+
+.head-img{
+    width: 100%;
+    height: 500px;
+}
+
+.logo{
+    position: absolute;
+    top: 250px;
+    left: 22%;
+
+    /* font-family: ; */
+    color: #E5FEFF;
+    background-color: #000324cc;
+
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ham-home-img{
+    width: 100%;
+    
+}
+
+.award-img{
+    width: 100%;
+}
+
+
+.mid-img{
+    width: 100%;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+.card-height{
+    height: 450px;
+}
+
+.card-imgs{
+    height: 150px;
+}
+
+.card-heading{
+    position: absolute;
+    top: 1170px;
+    left: 45%;
+}
+
+.card-heading-text{
+    color: white;
+}
+
+.card-position{
+    position: absolute;
+    top: 1220px;
+    left: 19%;
+}
+
+ul{
+    font-size: small;
+}
+
+.btn-color{
+    background-color: #004cc7;
+}
+
+
+.text-color-blue{
+    color: #E5FEFF;
+    /* font-family: ; */
+}
