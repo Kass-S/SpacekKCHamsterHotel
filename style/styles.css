@@ -85,6 +85,20 @@ ul{
 }
 
 
+
+.end-img{
+    background-image: url(/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 56%;
+    background-size: 100%;
+    height: 450px;
+}
+
+.valet-img{
+    height: 110px;
+}
+
+
 .text-color-blue{
     color: #E5FEFF;
     /* font-family: ; */
