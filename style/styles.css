@@ -20,6 +20,10 @@
     border-radius: 0%;
 }
 
+.card-heading-text{
+    color: white;
+}
+
 
 
 
@@ -47,6 +51,7 @@
 }
 
 
+
 .mid-img{
     background-image: url(/assets/bg2.jpg);
     background-repeat: no-repeat;
@@ -61,10 +66,6 @@
 
 .card-imgs{
     height: 150px;
-}
-
-.card-heading-text{
-    color: white;
 }
 
 ul{
