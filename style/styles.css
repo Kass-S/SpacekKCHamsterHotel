@@ -1,6 +1,24 @@
+@font-face{
+    font-family: 'Dosis';
+    src: url(../assets/fonts/Dosis-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Sourse Sans Pro';
+    src: url(../assets/fonts/SourceSans3-Regular.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
+}
+
+.d-font{
+    font-family: 'Dosis', sans-serif;
+}
+
+.ss-font{
+    font-family: 'Sourse Sans Pro', sans-serif;
 }
 
 .no-radius{
@@ -44,7 +62,6 @@
 }
 
 .logo{
-    /* font-family: ; */
     color: #E5FEFF;
     background-color: #000324cc;
     width: 80%;
@@ -119,5 +136,4 @@ ul{
 
 .text-color-blue{
     color: #E5FEFF;
-    /* font-family: ; */
 }
