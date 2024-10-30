@@ -69,7 +69,7 @@
 }
 
 .card-height{
-    height: 450px;
+    height: 460px;
 }
 
 .card-imgs{
@@ -88,6 +88,9 @@ ul{
     color: #1F51A8;
 }
 
+.more-margin-top{
+    margin-top: 52px;
+}
 
 
 .end-img{
@@ -100,6 +103,17 @@ ul{
 
 .valet-img{
     height: 110px;
+}
+
+
+.reserve-width{
+    width: 1200px;
+}
+
+.reserve-img{
+    background-position: 100% 56%;
+    background-size: 100%;
+    height: 400px;
 }
 
 
