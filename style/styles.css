@@ -24,6 +24,14 @@
     color: white;
 }
 
+.btn-color{
+    background-color: #004cc7;
+}
+
+.ava-btn-color{
+    background-color: #006EDB;
+}
+
 
 
 
@@ -71,11 +79,6 @@
 ul{
     font-size: small;
 }
-
-.btn-color{
-    background-color: #004cc7;
-}
-
 
 .ham-img-height{
     height: 260px;
