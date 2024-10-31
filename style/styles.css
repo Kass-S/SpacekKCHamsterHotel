@@ -20,6 +20,14 @@
     border-radius: 0%;
 }
 
+.no-boarder{
+    border: none;
+}
+
+.margin-top{
+    margin-top: 48px;
+}
+
 .more-padding-top{
     padding-top: 50px;
 }
@@ -135,6 +143,24 @@ ul{
 
 
 @media screen and (max-width: 900px){
+
+    .margin-top{
+        margin-top: 00px;
+    }
+
+    .bg-blue:hover{
+        background-color: #000324;
+    }
+
+    
+
+    .head-img{
+        background-image: url(/assets/header.jpg);
+        background-repeat: no-repeat;
+        background-position: 100% 56%;
+        background-size: 100%;
+        height: fit-content;
+    }
 
     .mid-img{
         background-image: url(/assets/bg2.jpg);
