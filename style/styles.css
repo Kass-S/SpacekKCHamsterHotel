@@ -8,11 +8,6 @@
     src: url(../assets/fonts/SourceSans3-Regular.ttf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .d-font{
     font-family: 'Dosis', sans-serif;
 }
@@ -136,4 +131,18 @@ ul{
 
 .text-color-blue{
     color: #E5FEFF;
+}
+
+
+@media screen and (max-width: 900px){
+
+    .mid-img{
+        background-image: url(/assets/bg2.jpg);
+        background-repeat: no-repeat;
+        background-position: 100% 56%;
+        background-size: 100%;
+        height: 1000px;
+    }
+
+
 }
