@@ -1,3 +1,13 @@
+:root{
+    --bgd-blue: #000324;
+    --btn-dark-blue: #004cc7;
+    --mid-blue: #1F51A8;
+    --btn-light-blue: #006EDB;
+    --light-blue: #E5FEFF;
+    --light: #ffff;
+}
+
+
 @font-face{
     font-family: 'Dosis';
     src: url(../assets/fonts/Dosis-Regular.ttf);
@@ -14,6 +24,10 @@
 
 .ss-font{
     font-family: 'Sourse Sans Pro', sans-serif;
+}
+
+.img-width{
+    width: 100%;
 }
 
 .no-radius{
@@ -33,24 +47,24 @@
 }
 
 .bg-blue{
-    background: #000324;
+    background: var(--bgd-blue);
 }
 
 .square-border{
-    border: 2px solid white;
+    border: 2px solid var(--light);
     border-radius: 0%;
 }
 
 .card-heading-text{
-    color: white;
+    color: var(--light);
 }
 
 .btn-color{
-    background-color: #004cc7;
+    background-color: var(--btn-dark-blue);
 }
 
 .ava-btn-color{
-    background-color: #006EDB;
+    background-color: var(--btn-light-blue);
 }
 
 
@@ -65,18 +79,10 @@
 }
 
 .logo{
-    color: #E5FEFF;
+    color: var(--light-blue);
     background-color: #000324cc;
     width: 80%;
 }      
-
-.ham-home-img{
-    width: 100%;    
-}
-
-.award-img{
-    width: 100%;
-}
 
 
 
@@ -105,7 +111,7 @@ ul{
 }
 
 .text-mid-blue{
-    color: #1F51A8;
+    color: var(--mid-blue);
 }
 
 .more-margin-top{
@@ -138,18 +144,18 @@ ul{
 
 
 .text-color-blue{
-    color: #E5FEFF;
+    color: var(--light-blue);
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
 
     .margin-top{
         margin-top: 00px;
     }
 
     .bg-blue:hover{
-        background-color: #000324;
+        background-color: var(--bgd-blue);
     }
 
     
@@ -167,7 +173,7 @@ ul{
         background-repeat: no-repeat;
         background-position: 100% 56%;
         background-size: 100%;
-        height: 1000px;
+        height: fit-content;
     }
 
 
