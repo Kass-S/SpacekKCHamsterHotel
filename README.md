@@ -2,6 +2,8 @@ Kassandra Spacek
 
 //11/1/24
 
+//Challange Hamster Hotel
+
 //created a responsive website based on given figma
 
 ### Peer Review:
