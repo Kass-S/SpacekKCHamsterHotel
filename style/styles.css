@@ -166,6 +166,12 @@ ul{
 /* reserve rooms */
 
 
+@media screen and (max-width: 1160px){
+    .card-border{
+        border: 1px solid var(--bgd-blue);
+    }
+}
+
 @media screen and (max-width: 1000px){
     /* Mis. */
     .display-yes-no{
